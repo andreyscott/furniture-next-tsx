@@ -91,7 +91,7 @@ export const ActionIcons = styled.div`
     font-size: larger;
   }
   svg:hover {
-    color: rgb(255, 112, 4);
+    color: #f49034;
   }
   &.toCartAction {
     position: absolute;
@@ -108,7 +108,7 @@ export const IconContainer = styled.div`
     left: 0;
     top: 0;
     visibility: hidden;
-    color: rgb(255, 112, 4);
+    color: #f49034;
   }
   .vis-hide {
     visibility: hidden;
@@ -130,7 +130,7 @@ export const IconContainer = styled.div`
     visibility: visible;
   }
   &.toCartActionItem:hover  {
-    background: rgb(255, 112, 4);
+    background: #f49034;
     color: white !important; 
   }
   &.toCartActionItem:hover svg {

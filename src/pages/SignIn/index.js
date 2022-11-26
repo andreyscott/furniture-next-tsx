@@ -48,7 +48,7 @@ export const Form = styled.form`
     background-color: rgb(47, 51, 58);
   }
   input:focus {
-    border: 1px solid rgb(255, 112, 4);
+    border: 1px solid #f49034;
   }
   @media screen and (max-width: 575px) {
      {

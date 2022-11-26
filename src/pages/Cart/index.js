@@ -119,7 +119,7 @@ export const ListBody = styled.div`
       color: rgb(71, 71, 71);
       transition: all 0.3s ease;
       :hover {
-        color: rgb(255, 112, 4);
+        color: #f49034;
       }
     }
   }
@@ -129,7 +129,7 @@ export const ListBody = styled.div`
     min-width: 200px;
     display: flex;
     justify-content: center;
-    color: rgb(255, 112, 4);
+    color: #f49034;
     font-family: Raleway, "Montserrat", sans-serif;
 
     span {
@@ -189,7 +189,7 @@ export const CouponContainer = styled.div`
     height: 48px;
     outline: none;
     border-radius: 3px 0px 0px 3px;
-    border-color: rgb(255, 112, 4);
+    border-color: #f49034;
     width: 100%;
     display: block;
     line-height: 1;
@@ -200,7 +200,7 @@ export const CouponContainer = styled.div`
     border: 1px solid rgb(235, 235, 235);
   }
   input:focus {
-    border: 1px solid rgb(255, 112, 4);
+    border: 1px solid #f49034;
   }
   button {
     font-size: small;
@@ -252,7 +252,7 @@ export const BtnCheckoutContainer = styled.div`
   }
   button:last-child:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 112, 4);
+    background-color: #f49034;
   }
   @media screen and (min-width: 992px) {
     display: flex;

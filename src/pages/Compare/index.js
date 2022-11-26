@@ -22,7 +22,7 @@ export const ThTable = styled.div`
     font-size: medium;
     margin-bottom: 1rem;
     :hover {
-      color: rgb(255, 112, 4);
+      color: #f49034;
     }
   }
   &:first-child {

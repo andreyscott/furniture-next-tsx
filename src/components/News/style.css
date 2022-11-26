@@ -65,7 +65,7 @@
 .news .swiper-button-next:hover,
 .news .swiper-button-prev:hover {
   color: rgb(255, 255, 255);
-  background-color: rgb(255, 112, 4);
+  background-color: #f49034;
 }
 .news .swiper-button-next.swiper-button-disabled,
 .news .swiper-button-prev.swiper-button-disabled {

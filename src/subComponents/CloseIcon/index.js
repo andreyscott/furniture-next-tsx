@@ -14,7 +14,7 @@ export const CloseIconContainer = styled.span`
     height: 100%;
     right: 50%;
     background: ${(props) =>
-      props.ModalQuickView ? "rgb(255, 255, 255)" : "rgb(255, 112, 4)"};
+      props.ModalQuickView ? "rgb(255, 255, 255)" : "#f49034"};
   }
   &:after {
     transform: rotate(-45deg);

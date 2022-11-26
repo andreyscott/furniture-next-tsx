@@ -2,7 +2,7 @@ import { ThemeProvider } from "styled-components";
 
 const theme = {
   colors: {
-    colorPrimary: "rgb(255, 112, 4)",
+    colorPrimary: "#f49034",
     colorText: "#545454",
     colorWhite: "white",
     bgPrimary: "rgb(47, 51, 58)",

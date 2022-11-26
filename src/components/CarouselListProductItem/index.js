@@ -34,7 +34,7 @@ export const Item = styled(Link)`
     position: absolute;
     transition: all 0.4s ease 0s;
     border-radius: 50%;
-    border: 2px dashed rgb(255, 112, 4);
+    border: 2px dashed #f49034;
   }
   &:hover:after {
     opacity: 1;

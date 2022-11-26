@@ -30,6 +30,6 @@ export const Form = styled.form`
     border: 1px solid rgb(235, 235, 235);
   }
   input:focus,textarea:focus {
-    border: 1px solid rgb(255, 112, 4);
+    border: 1px solid #f49034;
   }
 `;

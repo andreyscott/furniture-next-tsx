@@ -31,6 +31,24 @@ import {
   import Avatar2Img from './assets/img/avatar-2.png'
   import Avatar3Img from './assets/img/avatar-3.png'
   import Avatar4Img from './assets/img/avatar-4.png'
+
+  import f1 from './assets/pic/furn1.jpg'
+  import f2 from './assets/pic/furn2.jpg'
+  import f3 from './assets/pic/furn3.jpg'
+  import f4 from './assets/pic/furn4.jpg'
+  import f5 from './assets/pic/furn5.jpg'
+  import f6 from './assets/pic/furn6.jpg'
+
+  export const img = {
+    f1,
+    f2,
+    f3,
+    f4,
+    f5,
+    f6,
+    
+  }
+  
   
   export const navigation = [
     {

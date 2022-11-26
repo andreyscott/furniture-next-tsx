@@ -53,7 +53,7 @@ export const SocialMediaItem = styled.li`
     border-radius: 50%;
   }
   a:hover {
-    background-color: rgb(255, 112, 4);
+    background-color: #f49034;
   }
 `;
 export const Ul = styled.ul`
@@ -76,7 +76,7 @@ margin-bottom: 8px;
   }
   a:hover {
     transform: translateX(6px);
-    color: rgb(255, 112, 4);
+    color: #f49034;
   }
 `;
 export const FormEmail = styled.form``;
@@ -100,7 +100,7 @@ export const InputEmail = styled.input`
   margin-bottom: 0.5rem;
   transition: all 0.4s ease 0s;
   :focus {
-    border-color: rgb(255, 112, 4);
+    border-color: #f49034;
   }
 `;
 export const SubFooter = styled.div`

@@ -35,6 +35,6 @@ import {Link} from "react-router-dom"
       font-size: x-small;
     }
     &:hover {
-      color: rgb(255, 112, 4);
+      color: #f49034;
     }
   `;

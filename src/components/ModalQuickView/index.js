@@ -72,7 +72,7 @@ export const CloseIconContainer = styled.button`
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: rgb(255, 112, 4);
+  background-color: #f49034;
 `;
 export const ProductBody = styled.div`
   overflow: ${(state) =>

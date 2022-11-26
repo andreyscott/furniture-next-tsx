@@ -28,7 +28,7 @@ export const CartFooter = styled(Link)`
   transition: all 0.4s ease 0s;
   font-size: 16px;
   font-family: Raleway, "Montserrat", sans-serif;
-  background-color: rgb(255, 112, 4);
+  background-color: #f49034;
   color: rgb(255, 255, 255);
   font-weight: 600;
   &:hover {
@@ -46,7 +46,7 @@ export const CartFooterRight = styled.div`
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
-  color: rgb(255, 112, 4);
+  color: #f49034;
   border-radius: 3px;
   background-color: rgb(255, 255, 255);
   font-weight: 600;

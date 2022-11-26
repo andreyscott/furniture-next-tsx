@@ -37,7 +37,7 @@ export const ProductPrice = styled.p`
   & span {
     font-size: 16px;
     font-weight: 500;
-    color: rgb(255, 112, 4);
+    color: #f49034;
     margin-left: 3px;
   }
 `;

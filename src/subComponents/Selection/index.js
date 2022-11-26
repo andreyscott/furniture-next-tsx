@@ -17,7 +17,7 @@ export const SortContainer = styled.div`
   background-color: rgb(255, 255, 255);
   border-radius: 3px;
   border: 1px solid
-    ${(props) => (props.isOpen ? "rgb(255, 112, 4)" : " rgb(235, 235, 235)")};
+    ${(props) => (props.isOpen ? "#f49034" : " rgb(235, 235, 235)")};
   min-width: 220px;
   min-height: 40px;
 `;
@@ -61,7 +61,7 @@ export const Li = styled.li`
   width: 100%;
   padding: 0.7rem;
   &:hover {
-    background: rgb(255, 112, 4);
+    background: #f49034;
     color: white;
   }
 `;

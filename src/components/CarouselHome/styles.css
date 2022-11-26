@@ -74,12 +74,12 @@
   transition: all 0.4s ease 0s;
 }
 .carouselMain .swiper-pagination-bullet-active {
-  background-color: rgb(255, 112, 4);
-  border-color: rgb(255, 112, 4);
+  background-color: #f49034;
+  border-color: #f49034;
 }
 .carouselMain .swiper-pagination-bullet:hover {
-  background-color: rgb(255, 112, 4);
-  border-color: rgb(255, 112, 4);
+  background-color: #f49034;
+  border-color: #f49034;
 }
 
 /* Swiper Button Style */
@@ -114,7 +114,7 @@
 .carouselMain .swiper-button-next:hover,
 .carouselMain .swiper-button-prev:hover {
   color: rgb(255, 255, 255);
-  background-color: rgb(255, 112, 4);
+  background-color: #f49034;
 }
 .carouselMain .swiper-button-next.swiper-button-disabled,
 .carouselMain .swiper-button-prev.swiper-button-disabled {

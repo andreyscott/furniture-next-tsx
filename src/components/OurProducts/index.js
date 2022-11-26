@@ -29,7 +29,7 @@ export const TabListItem = styled.li`
   transition: all 0.4s ease 0s;
   font-weight: 600;
   &.active {
-    color: rgb(255, 112, 4);
+    color: #f49034;
   }
 `;
 export const TabBody = styled.div`
@@ -42,7 +42,7 @@ export const TabBody = styled.div`
   transition: all 0.4s ease 0s;
   font-weight: 600;
   &.active {
-    color: rgb(255, 112, 4);
+    color: #f49034;
   }
 `;
 export const ListProduct = styled.div`

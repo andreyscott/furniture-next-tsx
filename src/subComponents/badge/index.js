@@ -13,5 +13,5 @@ width: 17px;
 text-align: center;
 color: rgb(255, 255, 255);
 border-radius: 50%;
-background-color: rgb(255, 112, 4);
+background-color: #f49034;
 `;

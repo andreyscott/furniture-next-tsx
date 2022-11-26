@@ -97,7 +97,7 @@ export const WishlistCompare = styled.button`
   font-size: 14px;
   transition: all 0.3s ease;
   :hover {
-    color: rgb(255, 112, 4);
+    color: #f49034;
   }
   span {
     margin-left: 0.5rem;

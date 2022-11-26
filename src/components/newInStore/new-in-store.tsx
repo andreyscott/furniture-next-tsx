@@ -1,5 +1,6 @@
-import { newInStore } from '../../../data2'
-import {Link} from 'react-router-dom'
+import { newInStore } from '../../data2'
+import { Link } from "react-router-dom";
+
 import NewItemsSlider from './new-items-slider'
 import clsx from 'clsx'
 

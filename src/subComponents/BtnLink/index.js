@@ -12,7 +12,8 @@ export const BtnContainer = styled(Link)`
   font-family: Raleway,"Montserrat", sans-serif;
   font-weight: 600;
   color: rgb(255, 255, 255);
-  background-color: rgb(255, 112, 4);
+  background-color: #f49034;
+  border-radius: 100px;
 
   svg {
     margin-right: 0.2rem;

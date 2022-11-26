@@ -16,7 +16,7 @@ export const BadgeDiscountBtn = styled.span`
   border-radius: 3px;
   color: rgb(255, 255, 255);
   background-color: ${(props) =>
-    props.stockOut ? "rgb(255, 112, 4)" : "rgb(220, 53, 69)"};
+    props.stockOut ? "#f49034" : "rgb(220, 53, 69)"};
   @media screen and (max-width: 575px) {
     font-size: 11px;
     padding: 3px 4px;

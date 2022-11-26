@@ -63,6 +63,6 @@ export const CardAuthor = styled.div`
     margin-right: 1rem;
   }
   a:hover {
-    color: rgb(255, 112, 4);
+    color: #f49034;
   }
 `;

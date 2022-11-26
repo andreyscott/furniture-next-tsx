@@ -69,6 +69,6 @@ export const FormContainer = styled.div`
   }
   input:focus,
   textarea:focus {
-    border: 1px solid rgb(255, 112, 4);
+    border: 1px solid #f49034;
   }
 `;

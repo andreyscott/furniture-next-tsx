@@ -55,7 +55,7 @@
 
 .mySwipeProduct .swiper-slide-thumb-active {
   opacity: 1;
-  outline: 1px solid rgb(255, 112, 4) !important;
+  outline: 1px solid #f49034 !important;
   outline-offset: -2px;
 }
 
@@ -77,12 +77,12 @@
   transition: all 0.4s ease 0s;
 }
 .productDetails .swiper-pagination-bullet-active {
-  background-color: rgb(255, 112, 4);
-  border-color: rgb(255, 112, 4);
+  background-color: #f49034;
+  border-color: #f49034;
 }
 .productDetails .swiper-pagination-bullet:hover {
-  background-color: rgb(255, 112, 4);
-  border-color: rgb(255, 112, 4);
+  background-color: #f49034;
+  border-color: #f49034;
 }
 
 /* Swiper Button Style */
@@ -117,7 +117,7 @@
 .productDetails .swiper-button-next:hover,
 .productDetails .swiper-button-prev:hover {
   color: rgb(255, 255, 255);
-  background-color: rgb(255, 112, 4);
+  background-color: #f49034;
 }
 .productDetails .swiper-button-next.swiper-button-disabled,
 .productDetails .swiper-button-prev.swiper-button-disabled {

@@ -48,7 +48,7 @@ export const Form = styled.form`
     background-color: rgb(47, 51, 58);
   }
   input:focus {
-    border: 1px solid rgb(255, 112, 4);
+    border: 1px solid #f49034;
   }
   p {
     font-size: 13px;
@@ -60,7 +60,7 @@ export const Form = styled.form`
       font-weight: 600;
     }
     a:hover {
-      color: rgb(255, 112, 4) !important;
+      color: #f49034 !important;
     }
   }
 
@@ -95,7 +95,7 @@ export const CheckboxContainer = styled.div`
   margin: 1rem 0;
   input {
     width: unset;
-    accent-color: rgb(255, 112, 4);
+    accent-color: #f49034;
   }
   label {
     cursor: pointer;

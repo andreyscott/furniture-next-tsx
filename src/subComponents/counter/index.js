@@ -12,7 +12,7 @@ export const CounterOutput = styled.span`
 min-width:${(props) => (props.productDetail ? "50px" : "20px")};
 ${(props) =>
   props.productDetail &&
-  "border-left : 1px solid rgb(255, 112, 4) ; border-right : 1px solid rgb(255, 112, 4)"};
+  "border-left : 1px solid #f49034 ; border-right : 1px solid #f49034"};
   font-size: 15px;
   display:flex;
   justify-content: center;
@@ -20,7 +20,7 @@ ${(props) =>
 }
 `;
 export const BtnContainer = styled.div`
-  ${(props) => props.productDetail && "border : 1px solid rgb(255, 112, 4)"};
+  ${(props) => props.productDetail && "border : 1px solid #f49034"};
   display: flex;
   justify-content: space-between;
 

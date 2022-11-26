@@ -27,7 +27,7 @@ export const InputSearch = styled.input`
   border: 1px solid rgba(0, 0, 0, 0.15);
   transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   &:focus {
-    border-color: rgb(255, 112, 4);
+    border-color: #f49034;
   }
   &:focus-visible {
     outline: unset;
@@ -48,5 +48,5 @@ export const BtnSubmit = styled.button`
   justify-content: center;
   border-radius: 0px 5px 5px 0px;
   color: rgb(255, 255, 255);
-  background: rgb(255, 112, 4);
+  background: #f49034;
 `;

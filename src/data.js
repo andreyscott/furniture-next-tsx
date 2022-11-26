@@ -55,10 +55,10 @@ export const navItemData = [
   },
   {
     id: 4,
-    title: "Hospital Furniture",
+    title: "Sofa Furnitures",
     subMenu: [
-      { id: 0, title: "Hospital Bed", href: "/shop" },
-      { id: 1, title: "Hospital Utility", href: "/shop" },
+      { id: 0, title: "Sofa Chairs", href: "/shop" },
+      { id: 1, title: "Sofa Items", href: "/shop" },
     ],
   },
   {

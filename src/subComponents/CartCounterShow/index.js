@@ -20,7 +20,7 @@ export const Btn = styled.button`
   font-weight: 600;
   svg {
     font-size: x-large;
-    color: rgb(255, 112, 4);
+    color: #f49034;
   }
 `;
 export const CartItem = styled.span``;
@@ -30,7 +30,7 @@ export const CartPrice = styled.span`
   padding: 0px 5px;
   margin-top: 5px;
   line-height: 25px;
-  color: rgb(255, 112, 4);
+  color: #f49034;
   border-radius: 3px;
   font-size: 14px;
   background-color: rgb(255, 255, 255);

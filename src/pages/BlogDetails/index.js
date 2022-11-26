@@ -26,7 +26,7 @@ export const BlockQuote = styled.blockquote`
   padding: 0px 15px;
   line-height: 1.8;
   font-style: italic;
-  border-left: 3px solid rgb(255, 112, 4);
+  border-left: 3px solid #f49034;
   @media screen and (max-width: 767px) {
      {
       margin: 20px 50px;

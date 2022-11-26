@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   align-items: center;
   svg {
     font-size: 100px;
-    color: rgb(255, 112, 4);
+    color: #f49034;
   }
   h2 {
     font-size: 20px;

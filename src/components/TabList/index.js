@@ -18,11 +18,11 @@ export const NavItem = styled.li`
   font-weight: 600;
   transition: all 0.3s ease;
   :hover:before {
-    background-color: rgb(255, 112, 4);
+    background-color: #f49034;
   }
   :before {
     ${(props) =>
-      props.isSelect === props.id && "background-color:rgb(255, 112, 4)"};
+      props.isSelect === props.id && "background-color:#f49034"};
     left: 0px;
     right: 0px;
     height: 2px;

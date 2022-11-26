@@ -10,7 +10,7 @@ export const BtnWishlist = styled.button`
   font-family: Raleway;
   font-weight: 600;
   padding: 10px;
-  background-color: rgb(255, 112, 4);
+  background-color: #f49034;
   color: rgb(255, 255, 255);
   font-size: 12px;
   transition: all 0.3s ease;

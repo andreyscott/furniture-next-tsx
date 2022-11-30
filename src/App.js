@@ -21,6 +21,7 @@ import BlogDetails from "./pages/BlogDetails/BlogDetails";
 import Contact from "./pages/Contact/Contact";
 import Compare from "./pages/Compare/Compare";
 import NotFound from "./pages/404/NotFound";
+// import Nav1 from "./components/Header/NavTop";
 
 function App() {
   const { status } = useSelector((state) => state.quickView);
@@ -29,6 +30,7 @@ function App() {
       <Router>
         <ToastContainer />
         <ScrollToTop />
+        {/* <Nav1 /> */}
         <Header />
         <Switch>
           <Route path="/" component={Home} exact />

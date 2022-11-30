@@ -28,11 +28,11 @@ export const HeaderContainer = styled.div`
 `;
 export const Logo = styled.div`
   margin-left: 2rem;
-  max-width: 90px;
+  max-width: 135px;
   display: flex;
   align-items: center;
   @media screen and (min-width: 992px) {
-    max-width: 155px;
+    max-width: 175px;
   } ;
 `;
 export const LogoLink = styled(Link)`

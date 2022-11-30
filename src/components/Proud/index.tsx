@@ -1,7 +1,6 @@
 import React from 'react'
 import {IoIosArrowRoundForward} from 'react-icons/io'
-import {img} from '../../data2'
-
+import {img} from '../../data2';
 
 
 const Proud = () => {

@@ -11,6 +11,7 @@ import {
 // === Components ===
 import TopSection from "../../components/TopSection/TopSection";
 import Btn from "../../subComponents/Btn/Btn";
+import Maps from "./Map";
 
 const Contact = () => {
   return (
@@ -18,7 +19,8 @@ const Contact = () => {
       <TopSection title="CONTACT" name="CONTACT" />
       <section className="container">
         <Map>
-          <iframe src="https://maps.google.com/maps?q=121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+          <Maps />
+          {/* <iframe src="https://maps.google.com/maps?q=121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe> */}
         </Map>
         <ContactContainer>
           <ContactItem className="col-lg-4">

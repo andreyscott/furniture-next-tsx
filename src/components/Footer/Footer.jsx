@@ -104,11 +104,60 @@ const Footer = () => {
             </Ul>
           </FooterItem>
           <FooterItem className="col-12 col-md-6 col-lg-3">
-            <h4>newseltter</h4>
-            <FormEmail>
-              <InputEmail type="email" placeholder="Enter E-Mail Address" />
-              <Btn type="submit">Subscribe</Btn>
-            </FormEmail>
+          <div   className="flex flex-col" >
+             <h4
+              className="text-orange text-lg font-medium"
+             >VISIT OUR SHOWROOMS</h4>
+                            <div                         className="pl-4">
+                                <ul 
+                                      className="pt-3 pl-0 pr-0" >
+                                    <li    
+                                    className="text-primary-200 font-medium">
+                                       <h6
+                                                             className="text-lg uppercase">
+                                                               Main Showroom </h6>
+        
+                
+                                        <p  className="text-gray-300 cursor-pointer flex text-xs leading-4 py-3" > 
+                          <svg className="w-6 h-6 animate-pulse text-red-500  mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                      </svg>
+                                      51, Urubi Street, Benin City, <br/> Edo State
+                                          </p>
+                                    </li>
+                                    <li  className="text-primary-200  py-2 font-medium">
+                                                            <h6
+                                                             className=" text-base uppercase">
+                                                               Mission Road Showroom </h6>
+                                        <p className="flex cursor-pointer text-gray-300 text-xs leading-4 pt-3">
+                                        <svg className="w-6 h-6 hover:animate-bounce text-red-500  mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                      </svg>
+                                      27 Mission Rd, Avbiama 300102, <br/> Benin City
+                                          </p>
+                                    </li>
+                                    <li  
+                                        className="text-primary-200 py-2 font-medium">
+                 <h6
+                                className="text-base uppercase">
+                                                               Sapele Road Showroom </h6>
+                                        <p className="flex cursor-pointer text-gray-300 text-sm leading-4 pt-3">
+                                        <svg className="w-6 h-6 hover:animate-bounce text-red-500  mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                      </svg>
+                                      Suite 101, KU Plaza,, opposite PZ Road, Junction 300104,  <br/>  Benin City
+                
+                                         </p>
+                                    </li>
+                                </ul>
+
+     
+
+  </div>
+  </div>
           </FooterItem>
         </FooterList>
       </div>

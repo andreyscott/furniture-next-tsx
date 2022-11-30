@@ -11,6 +11,8 @@ import {
   
   // import images
   import Features1Img from './assets/img/features-1.png'
+  import Features3Img from './assets/img/hero-bg.png'
+
   import Features2Img from './assets/img/features-2.png'
   import ChairImg from './assets/img/chair.png'
   import BedImg from './assets/img/bed.png'
@@ -97,7 +99,7 @@ import {
   ]
   
   export const features = {
-    image: Features1Img,
+    image: Features3Img,
     title: 'We Create your home more aesthetic',
     subtitle:
       'Furniture power is a software as services for multipurpose business management system',

@@ -31,11 +31,23 @@ const Footer = () => {
           <FooterItem className="col-12 col-md-6 col-lg-3">
             <h4>About us</h4>
             <p>
-              Lorem ipsum dolor sit amet cons adipisicing elit sed do eiusm
-              tempor incididunt ut labor et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud.
+            The Furniture Standard is a furniture store that offers a wide range of furniture for your home.
+             We have a wide range of furniture for your home, from living room furniture, bedroom furniture, dining room furniture, office furniture, and more. 
+
             </p>
-            <SocialMedia>
+         
+            {/* phone number */}
+            <div 
+            className=" flex py-2"> 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+            className="flex-shrink-0 h-6 w-6 hover:text-orange animate-pulse mt-1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
+          </svg>
+  <a href="tel:07066800620" className="ml-2 hover:text-orange text-2xl ">
+          07066800620
+            </a>
+        </div>
+        <SocialMedia>
               <SocialMediaItem>
                 <Link to="/">
                   <BsFacebook />
@@ -62,6 +74,7 @@ const Footer = () => {
                 </Link>
               </SocialMediaItem>
             </SocialMedia>
+
           </FooterItem>
           <FooterItem className="col-12 col-md-6 col-lg-3">
             <h4>Information</h4>
@@ -163,9 +176,9 @@ const Footer = () => {
       </div>
       <SubFooter>
         <p class="sc-eHfRjS cJkIkW">
-          © 2021
-          <Link class="company-name" to="https://github.com/moradi2128">
-            GitHub
+          © 2023 all rights reserved by
+          <Link class="company-name" to="https://github.com/andreyscott">
+            {"Andrew"}
           </Link>
         </p>
       </SubFooter>

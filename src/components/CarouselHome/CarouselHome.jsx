@@ -45,8 +45,8 @@ const CarouselHome = () => {
                 <h4>New Products</h4>
                 <h2>Flexible Chair</h2>
                 <p>
-                  Torem ipsum dolor sit amet, consectetur adipisicing elitsed do
-                  eiusmo tempor incididunt ut labore et dolore magna
+                Fill your home with furniture that brings you comfort as soon as you
+          walk in the door. 
                 </p>
                 <BtnLink to="/shop">Shop Now</BtnLink>
               </Description>
@@ -61,8 +61,9 @@ const CarouselHome = () => {
                 <h4>Best Seller</h4>
                 <h2>Creative Sofa</h2>
                 <p>
-                  Torem ipsum dolor sit amet, consectetur adipisicing elitsed do
-                  eiusmo tempor incididunt ut labore et dolore magna
+                From cozy sectionals that work well for big
+          get-togethers to beds that invite you for a good night's sleep after a
+          long day. 
                 </p>
                 <BtnLink to="/shop">Shop Now</BtnLink>
               </Description>
@@ -74,10 +75,10 @@ const CarouselHome = () => {
             <SliderContainer className="container">
               <img src={slider3} alt="slider2" />
               <Description>
-                <h4>Best Seller</h4>
+                <h4>Living Room</h4>
                 <h2>Creative Sofa</h2>
                 <p>
-                  Torem ipsum dolor sit amet, consectetur adipisicing elitsed do
+                It's a brand  Torem ipsum dolor sit amet, consectetur adipisicing elitsed do
                   eiusmo tempor incididunt ut labore et dolore magna
                 </p>
                 <BtnLink to="/shop">Shop Now</BtnLink>

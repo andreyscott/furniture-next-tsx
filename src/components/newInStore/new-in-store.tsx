@@ -8,12 +8,12 @@ const NewInStore = () => {
   const { title, subtitle, link, icon } = newInStore
   return (
     <section className="section overflow-hidden relative lg:min-h-[540px]">
-      <div className="container mx-auto">
+      <div className="container mx-auto py-20">
         <div className="flex flex-col lg:flex-row">
           <div
           data-aos="fade-up-right"
-           className="flex md:flex-col items-baseline gap-x-6 mb-6 lg:mb-0">
-            <h2 className="title max-w-[245px] lg:mt-[30px] lg:mb-[90px]">
+           className="flex flex-col items-baseline gap-x-6 mb-6 lg:mb-0">
+            <h2 className="title max-w-[245px] lg:mt-[30px] lg:mb-[90px] text-2xl">
               {title}
             </h2>
             <p className="max-w-[245px] lg:mb-12">{subtitle}</p>

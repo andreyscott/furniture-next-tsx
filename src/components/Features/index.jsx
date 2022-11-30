@@ -1,10 +1,10 @@
-import { features } from '../../data'
+import { features } from '../../data2'
 
 const Features = () => {
   const { title, subtitle, image, items } = features
   return (
     <section className="section">
-      <div className="container mx-auto">
+      <div className="container mx-auto py-16">
         <div className="flex flex-col lg:flex-row lg:gap-x-[100px]">
           <div 
           data-aos="fade-up-right"
@@ -15,11 +15,11 @@ const Features = () => {
               loading="lazy"
               width="100%"
               height="100%"
-              className="object-cover overflow-hidden trans"
+              className="object-cover overflow-hidden trans  rounded-sm"
             />
           </div>
           <div className="flex-1 flex flex-col justify-end">
-            <h2 className="title lg:mb-[35px]">{title}</h2>
+            <h2 className="title lg:mb-[35px] text-2xl ">{title}</h2>
             <p className="subtitle">{subtitle}</p>
             <div className="sm:mb-[50px]">
               {items.map(({ title, subtitle, icon }, index) => (

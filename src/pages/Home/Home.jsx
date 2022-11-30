@@ -1,6 +1,9 @@
-import React from "react";
+import React,{useEffect} from "react";
 
 import "./index";
+// Aos 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // === Components ===
 import CarouselHome from "../../components/CarouselHome/CarouselHome";
@@ -14,14 +17,25 @@ import Proud from "../../components/Proud";
 // import BottomVideo from "../../components/video";
 // import Video from "../../components/video/video";
 import Main from "../../components/video/test";
+import Features from "../../components/Features";
+
+
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: false,
+    });
+  }, []);
   return (
     <main>
       <CarouselHome />
     <Stats />
     {/* <NewIn */}
+
       <CarouselListProduct />
+      <Features />
       <OurProducts />
     <NewInStore />
       <Proud />

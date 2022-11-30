@@ -15,10 +15,16 @@ const About = () => {
         <BodyAbout>
           <div>
             <AboutItem>
-              <img src={aboutPageData[0].description[0].img} />
+              <img src={aboutPageData[0].description[0].img}
+              alt={aboutPageData[0].description[0].alt}
+              
+              />
             </AboutItem>
             <AboutItem>
-              <img src={aboutPageData[0].description[1].img} />
+              <img src={aboutPageData[0].description[1].img}
+              alt='loading'
+              
+              />
             </AboutItem>
           </div>
           <Description className="container">

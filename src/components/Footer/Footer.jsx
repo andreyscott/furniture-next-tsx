@@ -12,6 +12,9 @@ import {
   InputEmail,
   SubFooter,
 } from "./index";
+
+import { TbMail, TbPhone, TbClock } from 'react-icons/tb';
+
 // === Components ===
 import Btn from "../../subComponents/Btn/Btn";
 // ===Icons ===
@@ -37,7 +40,7 @@ const Footer = () => {
             </p>
          
             {/* phone number */}
-            <div 
+            {/* <div 
             className=" flex py-2"> 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
             className="flex-shrink-0 h-6 w-6 hover:text-orange animate-pulse mt-1">
@@ -46,7 +49,7 @@ const Footer = () => {
   <a href="tel:07066800620" className="ml-2 hover:text-orange text-2xl ">
           07066800620
             </a>
-        </div>
+        </div> */}
         <SocialMedia>
               <SocialMediaItem>
                 <Link to="/">
@@ -76,7 +79,7 @@ const Footer = () => {
             </SocialMedia>
 
           </FooterItem>
-          <FooterItem className="col-12 col-md-6 col-lg-3">
+          {/* <FooterItem className="col-12 col-md-6 col-lg-3">
             <h4>Information</h4>
             <Ul>
               <Li>
@@ -95,7 +98,9 @@ const Footer = () => {
                 <Link to="/">Terms & Conditions</Link>
               </Li>
             </Ul>
-          </FooterItem>
+          </FooterItem> */}
+
+        
           <FooterItem className="col-12 col-md-6 col-lg-3">
             <h4>MY ACCOUNT</h4>
             <Ul>
@@ -116,6 +121,28 @@ const Footer = () => {
               </Li>
             </Ul>
           </FooterItem>
+          <FooterItem className="col-12 col-md-6 col-lg-3">
+          <div className='flex flex-col'>
+                        <span className='text-md font-medium'>CONTACT US</span>
+                        <div className='flex flex-col gap-4'>
+                            <div className='flex items-center gap-3'>
+                                <div className='p-2 rounded-full w-fit border-cyan-50 border-2'><TbMail /></div>
+                                <span className='text-sm'>info@la-studioweb.com</span>
+                            </div>
+                            <div className='flex items-center first-letter: gap-3'>
+                                <div className='p-2 rounded-full w-fit border-cyan-50 hover:border-orange  hover:text-orange text-xl lg:text-2xl border-2'><TbPhone className=" animate-pulse" /></div>
+                                <a href="tel:07066800620" className="ml-1 hover:text-orange text-xl lg:text-2xl ">
+          07066800620
+            </a>
+                            </div>
+                            <div className='flex items-center text-xl gap-3'>
+                                <div className='p-2 rounded-full w-fit border-cyan-50 border-2'>
+                                  <TbClock /></div>
+                                <span className=''>9:00am - 19:00pm<br/>Monday - Sunday</span>
+                            </div>
+                        </div>
+                    </div>
+                    </FooterItem>
           <FooterItem className="col-12 col-md-6 col-lg-3">
           <div   className="flex flex-col" >
              <h4

@@ -2,6 +2,7 @@ import styled from "styled-components";
 export const Card = styled.article`
   width: 100%;
   position: relative;
+  border-radius: 22px;
   background-color: rgb(244, 245, 248);
   transition: all 0.3s ease;
   &:hover {
@@ -12,6 +13,7 @@ export const Card = styled.article`
 export const CardHeader = styled.div``;
 export const CardBody = styled.div`
   padding: 22px 20px 32px;
+  
   p {
     color: rgb(71, 71, 71);
     margin-bottom: 0.5rem;
@@ -24,6 +26,8 @@ export const CardImgContainer = styled.figure`
   position: relative;
   box-sizing: border-box;
   margin: 0px;
+  border-radius: 22px;
+
 `;
 export const CardImg = styled.img`
   position: absolute;
@@ -39,6 +43,7 @@ export const CardImg = styled.img`
   max-width: 100%;
   min-height: 100%;
   max-height: 100%;
+  border-radius: 22px;
 `;
 export const CardTitle = styled.h2`
   font-size: 22px;

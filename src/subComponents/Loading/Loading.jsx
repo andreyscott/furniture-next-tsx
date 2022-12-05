@@ -2,10 +2,10 @@ import React from "react";
 import "./style.css";
 const Loading = () => {
   return (
-    <div class="loading-container">
-      <svg class="spinner" viewBox="0 0 50 50">
+    <div className="loading-container">
+      <svg className="spinner" viewBox="0 0 50 50">
         <circle
-          class="path"
+          className="path"
           cx="25"
           cy="25"
           r="20"

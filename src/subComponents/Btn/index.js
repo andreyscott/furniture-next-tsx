@@ -13,6 +13,7 @@ export const BtnContainer = styled(Link)`
   font-size: 15px;
   font-family: Raleway, "Montserrat", sans-serif;
   font-weight: 600;
+  border-radius: 8px;
   color: ${(props) => props.theme.colors.colorWhite};
   background-color: ${(props) =>
     props.type === "news"

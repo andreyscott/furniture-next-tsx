@@ -126,6 +126,11 @@ export const newsData = [
     img: NewsImg,
     href: "/",
     hrefAuthor: "/",
+    tags: {
+      id: 1,
+  tags: ["#trigan", "#empire", "#science", "#fiction"],
+
+  },
   },
   {
     id: 1,
@@ -137,6 +142,11 @@ export const newsData = [
     img: NewsImg2,
     href: "/",
     hrefAuthor: "/",
+    tags: {
+      id: 1,
+  tags: ["#furniture", "#empire"],
+
+  },
   },
   {
     id: 2,
@@ -148,6 +158,11 @@ export const newsData = [
     img: NewsImg3,
     href: "/",
     hrefAuthor: "/",
+    tags: {
+      id: 1,
+  tags: ["#trigan", "#fiction"],
+
+  },
   },
 ];
 

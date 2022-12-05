@@ -59,14 +59,14 @@ const Maps = () => {
 }
 
 function Map() {
-  const center = useMemo(() => ({ lat: 6.3781, lng: 5.436 }), [])
-  const center2 = useMemo(() => ({ lat: 6.4781, lng: 5.496 }), [])
-  const center3 = useMemo(() => ({ lat: 7.3781, lng: 3.436 }), [])
+  const center = useMemo(() => ({ lat: 6.352128, lng: 5.619777 }), [])
+  const center2 = useMemo(() => ({ lat: 6.279856, lng: 5.633100 }), [])
+  const center3 = useMemo(() => ({ lat: 6.340109, lng: 5.625267 }), [])
 
 
   return (
     <GoogleMap
-      zoom={5}
+      zoom={10}
       center={center}
       
       mapContainerClassName="map-container w-full h-auto"

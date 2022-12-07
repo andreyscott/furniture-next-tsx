@@ -8,15 +8,15 @@ import {
   SocialMediaItem,
   Ul,
   Li,
-  FormEmail,
-  InputEmail,
+  // FormEmail,
+  // InputEmail,
   SubFooter,
 } from "./index";
 
 import { TbMail, TbPhone, TbClock } from 'react-icons/tb';
 
 // === Components ===
-import Btn from "../../subComponents/Btn/Btn";
+// import Btn from "../../subComponents/Btn/Btn";
 // ===Icons ===
 import {
   BsFacebook,
@@ -202,9 +202,9 @@ const Footer = () => {
         </FooterList>
       </div>
       <SubFooter>
-        <p class="sc-eHfRjS cJkIkW">
+        <p className="sc-eHfRjS cJkIkW">
           © 2023 all rights reserved by
-          <Link class="company-name" to="https://github.com/andreyscott">
+          <Link className="company-name" to="https://github.com/andreyscott">
             {"Andrew"}
           </Link>
         </p>

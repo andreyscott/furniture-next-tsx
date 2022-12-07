@@ -118,27 +118,27 @@ export const bannerData = [
 export const newsData = [
   {
     id: 0,
-    title: "Ut enim adminim veniam, quis nostrud ",
-    author: "Raju HT",
-    date: "14 September, 2021",
+    title: "BOUCLÉ FURNITURE: WHAT’S ALL THE FUZZ ABOUT?",
+    author: "ANDREW I",
+    date: "8 December, 2022",
     description:
-      "Lorem ipsum dolor sit amet onsectetur elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet",
+      "Have you heard? Bouclé has been having a moment. You might as well make it its own set of keys (to your heart or your home — doesn’t really matter), because we don’t think this bubbly beauty is going anywhere anytime soon. French for “curly,” bouclé refers to both a yarn made from looped fibers and the resulting fabric crafted from it. Characterized by its irregular coiled appearance and an incredibly soft hand-feel, it adds an element of modern sophistication to any space while keeping things warm and cozy.",
     img: NewsImg,
     href: "/",
     hrefAuthor: "/",
     tags: {
       id: 1,
-  tags: ["#trigan", "#empire", "#science", "#fiction"],
+  tags: ["#new", "#design", "#trends", "#furniture", "#empire"],
 
   },
   },
   {
     id: 1,
-    title: "Spatialize with that the  Sam Standard Furniture ",
-    author: "Raju HT",
-    date: "14 September, 2021",
+    title: "READY, (DINING) SET, GO! DINING ROOM FURNITURE TO SUIT ANY SPACE",
+    author: "Andrey scott",
+    date: "1 January, 2023",
     description:
-      "Lorem ipsum dolor sit amet onsectetur elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet",
+      "After several months of noshing your way through all the poolside BBQs, picnics in the park, and ice cream dates summer has to offer, you may have forgotten what it’s like to sit down to a meal at home. But with the end of summer on the horizon, now seems like a pretty good time to get your dining room furniture in order. Whether you’re looking to upgrade your current dining room set or you’re in the market for a whole new dining room setup, we’ve got you covered.",
     img: NewsImg2,
     href: "/",
     hrefAuthor: "/",
@@ -150,17 +150,17 @@ export const newsData = [
   },
   {
     id: 2,
-    title: "Eiumod tempor incididunt labore ",
-    author: "Raju HT",
-    date: "14 September, 2021",
+    title: "WELCOME TO THE SAMS CLUB: MODERN IDEAS FOR YOUR HOME",
+    author: "Jhon Doe",
+    date: "14 September, 2022",
     description:
-      "Lorem ipsum dolor sit amet onsectetur elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet",
+      "Modern bohemian style (or boho style), which is characterized by an eclectic blend of organic materials, handcrafted textures, and striking designs, embodies a carefree way of life.",
     img: NewsImg3,
     href: "/",
     hrefAuthor: "/",
     tags: {
       id: 1,
-  tags: ["#trigan", "#fiction"],
+  tags: ["#modern", "#furniture", "#empire"],
 
   },
   },

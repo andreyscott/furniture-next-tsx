@@ -19,6 +19,8 @@ import Proud from "../../components/Proud";
 import Main from "../../components/video/test";
 import Features from "../../components/Features";
 import BlogHeader from "../../components/BlogHeader";
+import About from "../../components/HomeAbout/About";
+import BottomBanner from "../../components/bottomBanner/Banner";
 
 
 
@@ -40,9 +42,12 @@ const Home = () => {
       <OurProducts />
     <NewInStore />
       <Proud />
+      <About />
       <Banner />
       <News />
       {/* <BlogHeader /> */}
+      <BottomBanner />
+
       <Main />
     </main>
   );

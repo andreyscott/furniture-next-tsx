@@ -10,7 +10,7 @@ const Proud = () => {
     
     <div className="big-shop" id="shop">
     <div className="shop-title">
-        <h2>
+        <h2 className='text-3xl md:text-5xl mb-2'>
             we are very proud to present you <br/> our furniture
         </h2>
         <p>

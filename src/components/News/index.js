@@ -9,7 +9,7 @@ export const NewsHeader = styled.div`
   }
   p {
     margin: auto;
-    max-width: 465px;
+    max-width: 600px;
     margin-bottom: 2rem;
   }
 `;

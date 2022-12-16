@@ -66,7 +66,7 @@ function Map() {
 
   return (
     <GoogleMap
-      zoom={10}
+      zoom={12}
       center={center}
       
       mapContainerClassName="map-container w-full h-auto"

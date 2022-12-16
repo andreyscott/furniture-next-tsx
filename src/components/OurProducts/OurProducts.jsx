@@ -21,9 +21,9 @@ const OurProducts = () => {
     <section>
       <OurProductsHeader className="container">
         <h2>Our Products</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo
-          tempor incididunt ut labore
+        <p className=" leading-relaxed">
+        We offer a wide selection of high-quality, stylish furniture for every room in your home. 
+        From comfortable sofas and chairs to functional tables and storage solutions, we have everything you need to create a space that's both functional and fashionable.
         </p>
       </OurProductsHeader>
       <OurProductsTab>

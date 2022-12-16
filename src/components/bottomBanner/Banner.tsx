@@ -97,14 +97,14 @@ const BottomBanner = () => {
             <div className='md:absolute md:left-[20%] flex py-20 md:py-0 items-center h-full w-full '>
               <div className=' pr-2 pl-1 md:pl-0 md:w-[80%] w-full'>
                 <h1 className='md:text-6xl text-5xl font-bold leading-tight md:leading-normal'>
-                Discover the istercrior 
+                Discover the perfect 
                  <br />
-                design of your dreams
+                Furniture of your dreams
                  </h1>
                 <p className='my-4'>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit, nam dui tincidunt nunc nisl porttitor sem mauris, faucibus duis metus aliquam erat per.
+                Thank you for considering Samstandard Furniture for all your home furniture needs. We look forward to helping you create the home of your dreams.
                     </p>
-            <button className='bg-black hover:bg-orange  transition-all duration-500 ease-in-out text-white px-11 py-3 inline-block'> Shop Now</button>
+            <button className='bg-black hover:bg-orange rounded-full  transition-all duration-500 ease-in-out text-white px-11 py-3 inline-block'> Shop Now</button>
             
               </div>
             </div>

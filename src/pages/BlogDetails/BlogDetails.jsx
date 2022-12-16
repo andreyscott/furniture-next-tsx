@@ -16,8 +16,8 @@ const BlogDetails = () => {
   return (
     <main>
       <TopSection
-        title="UT ENIM ADMINIM VENIAM, QUIS NOSTRUD"
-        name="UT ENIM ADMINIM VENIAM, QUIS NOSTRUD"
+        title="READY, (DINING) SET, GO! "
+        name="DINING ROOM FURNITURE TO SUIT ANY SPACE"
       />
       <article className="container">
         <div className="m-auto col-lg-9">
@@ -27,46 +27,23 @@ const BlogDetails = () => {
           <Section>
             <CardAuthor>
               By
-              <Link to="/">Moradi </Link>
-              <Link to="/">14 September, 2021</Link>
+              <Link to="/">Andrey </Link>
+              <Link to="/">14 September, 2023</Link>
             </CardAuthor>
             <CardTitle>
-              <Link to="/">Ut enim adminim veniam, quis nostrud</Link>
+              <Link to="/">EAT, WORK, LOVE</Link>
             </CardTitle>
             <p>
-              Ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              adminim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip commodo consequat. Duis aute irure dolor in rep
-              rehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit, sed do eiumod tempor incididunt ut labore et dolore magna
-              aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim adminim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip commodo consequat.
+            After several months of noshing your way through all the poolside BBQs, picnics in the park, and ice cream dates summer has to offer, you may have forgotten what it’s like to sit down to a meal at home. But with the end of summer on the horizon, now seems like a pretty good time to revamp your indoor dining room set-up.
+            With so many things to consider, like style, room shape, materials, size, and function (we told you — it’s a lot), furnishing a dining space can seem daunting. Whether you’re looking to fully redesign a formal dining room or simply spruce up that cozy nook in the corner of your kitchen, our selection of dining room sets will help you get excited about indoor dining (and even hosting) all over again.
             </p>
             <BlockQuote>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-                aute irure dolor in rep
+              A match made in interior design heaven: wood and glass. Bringing a bit of mid-century modern flair, the ​​Tafulo Dining Table knows how to keep things bright and open.
               </p>
             </BlockQuote>
             <p>
-              Ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              adminim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip commodo consequat. Duis aute irure dolor in rep
-              rehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit, sed do eiumod tempor incididunt ut labore et dolore magna
-              aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim adminim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip commodo consequat.
+            Looking for a cozy breakfast nook that instantly transforms into a chic WFK (work from kitchen) spot come 9am? Say no more. With its Carrara marble top and brass-plated steel pedestal base, the Erno Dining Table will make you want to settle in and stay a while.
             </p>
             <h3>
               <strong>
@@ -84,18 +61,7 @@ const BlogDetails = () => {
               allowfullscreen=""
             ></iframe>
             <p>
-              Ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              adminim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip commodo consequat. Duis aute irure dolor in rep
-              rehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit, sed do eiumod tempor incididunt ut labore et dolore magna
-              aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim adminim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip commodo consequat.
+            looking to transform your formal dining room from everyday din-din spot to inviting event destination at a moment’s notice? Then the Madera Dining Table is your perfect match. Boasting a richly textured oak tabletop, this extendable design embodies style and function like nobody’s business. Whatever the occasion — chill get-togethers, milestone birthdays, your bff’s baby shower — the leaf extension will allow you to easily accommodate up to twelve guests. Create a magazine-worthy modern farmhouse look by pairing it with the Dabo Dining Chairs. 
             </p>
           </Section>
           <Footer>

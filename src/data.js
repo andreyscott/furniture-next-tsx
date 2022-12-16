@@ -122,7 +122,7 @@ export const newsData = [
     author: "ANDREW I",
     date: "8 December, 2022",
     description:
-      "Have you heard? Bouclé has been having a moment. You might as well make it its own set of keys (to your heart or your home — doesn’t really matter), because we don’t think this bubbly beauty is going anywhere anytime soon. French for “curly,” bouclé refers to both a yarn made from looped fibers and the resulting fabric crafted from it. Characterized by its irregular coiled appearance and an incredibly soft hand-feel, it adds an element of modern sophistication to any space while keeping things warm and cozy.",
+      "Have you heard? Bouclé has been having a moment. You might as well make it its own set of keys (to your heart or your home — doesn’t really matter), because we don’t think that we....",
     img: NewsImg,
     href: "/",
     hrefAuthor: "/",
@@ -138,7 +138,7 @@ export const newsData = [
     author: "Andrey scott",
     date: "1 January, 2023",
     description:
-      "After several months of noshing your way through all the poolside BBQs, picnics in the park, and ice cream dates summer has to offer, you may have forgotten what it’s like to sit down to a meal at home. But with the end of summer on the horizon, now seems like a pretty good time to get your dining room furniture in order. Whether you’re looking to upgrade your current dining room set or you’re in the market for a whole new dining room setup, we’ve got you covered.",
+      "After several months of noshing your way through all the poolside BBQs, picnics in the park, and ice cream dates summer has to offer, you may have forgotten what it’s like to sit down to a meal at home...",
     img: NewsImg2,
     href: "/",
     hrefAuthor: "/",
@@ -170,7 +170,7 @@ export const aboutPageData = [
   {
     id: 0,
     title:
-      "Furns is a global furniture destination for somethings. We sell cutting-edge furniture and offer a wide variety of fashion-related content.",
+      "Sam Standard is a global furniture destination for somethings. We sell cutting-edge furniture and offer a wide variety of fashion-related content.",
     description: [
       {
         id: 0,

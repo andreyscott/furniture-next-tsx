@@ -18,7 +18,7 @@ import Proud from "../../components/Proud";
 // import Video from "../../components/video/video";
 import Main from "../../components/video/test";
 import Features from "../../components/Features";
-import BlogHeader from "../../components/BlogHeader";
+// import BlogHeader from "../../components/BlogHeader";
 import About from "../../components/HomeAbout/About";
 import BottomBanner from "../../components/bottomBanner/Banner";
 

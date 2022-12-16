@@ -10,12 +10,16 @@ const Proud = () => {
     
     <div className="big-shop" id="shop">
     <div className="shop-title">
-        <h2 className='text-3xl md:text-5xl mb-2'>
+        <h2 className='text-4xl md:text-5xl mb-2'>
             we are very proud to present you <br/> our furniture
         </h2>
-        <p>
-            Quality is the easiest way to make beautiful products.
+        <p className=' text-xl leading-loose'>
+        Our team of experienced designers works hard to bring you the latest trends and styles, so you can find the perfect pieces to suit your personal taste and style. Whether you're looking for a modern, minimalist aesthetic or a more traditional, classic look, we have something for everyone.
+        we also offer customizable options for those who want to create a truly unique piece. 
+      
         </p>
+
+        
     </div>
     <div className="shop-flex">
         <div className="shop-one">

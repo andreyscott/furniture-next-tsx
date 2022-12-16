@@ -23,8 +23,7 @@ const News = () => {
         <NewsHeader>
           <h2>Latest News</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do
-            eiusmo tempor incididunt ut labore
+          Latest trends and styles, so you can find the perfect pieces to suit your personal taste and style. Whether you're looking for a modern, minimalist aesthetic or a more traditional, classic look, we have something for everyone.
           </p>
         </NewsHeader>
         <Swiper

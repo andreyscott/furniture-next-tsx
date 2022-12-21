@@ -59,7 +59,7 @@ const CarouselHome = () => {
               <img src={slider2} alt="slider2" />
               <Description>
                 <h4>Best Seller</h4>
-                <h2>Creative Sofa</h2>
+                <h2>Indoor Sofas</h2>
                 <p>
                 From cozy sectionals that work well for big
           get-togethers to beds that invite you for a good night's sleep after a
@@ -76,7 +76,7 @@ const CarouselHome = () => {
               <img src={slider3} alt="slider2" />
               <Description>
                 <h4>Living Room</h4>
-                <h2>Creative Sofa</h2>
+                <h2>The Best Living Room Furnitures</h2>
                 <p>
                 Fill your home with furniture that brings you comfort as soon as you
           walk in the door. 
@@ -92,7 +92,7 @@ const CarouselHome = () => {
               <img src={slider4} alt="slider4" />
               <Description>
                 <h4>Best Seller</h4>
-                <h2> Sofa</h2>
+                <h2>Outdoor Sofas</h2>
                 <p>
                 Our pieces are carefully selected to provide a unique and modern aesthetic, and we are dedicated to providing high-quality furniture at affordable prices.
 

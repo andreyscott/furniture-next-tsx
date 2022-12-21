@@ -30,10 +30,10 @@ const Contact = () => {
                 <h3>Phone:</h3>
                 <div>
                   <p>
-                    <a href="tel:+012345678102">+012 345 678 102</a>
+                    <a href="tel:+2347066800620">070 6680 0620</a>
                   </p>
                   <p>
-                    <a href="tel:+012345678203">+012 345 678 203</a>
+                    <a href="tel:+2347066800620">070 6680 0620</a>
                   </p>
                 </div>
               </ContactInfo>
@@ -49,10 +49,25 @@ const Contact = () => {
                 </div>
               </ContactInfo>
               <ContactInfo>
-                <h3>Address:</h3>
+                <h3>Address:1</h3>
                 <div>
-                  <p>Address goes here,</p>
-                  <p>street, Crossroad 123.</p>
+                  <p>51, Urubi</p>
+                  <p>street, Benin City, Edo State.</p>
+                </div>
+              </ContactInfo>
+              <ContactInfo>
+                <h3>Address:2</h3>
+                <div>
+                  <p>27 Mission Rd</p>
+                  <p> Avbiama 300102,
+Benin City Edo State.</p>
+                </div>
+              </ContactInfo>
+              <ContactInfo>
+                <h3>Address:3</h3>
+                <div>
+                  <p>Suite 101, KU Plaza,, opposite</p>
+                  <p>Road, Junction 300104, Benin City</p>
                 </div>
               </ContactInfo>
             </div>

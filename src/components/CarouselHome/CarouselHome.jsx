@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 
 import "./styles.css";
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import {  Pagination, Navigation } from "swiper";
 // === Components ===
 import BtnLink from "../../subComponents/BtnLink/BtnLink";
 

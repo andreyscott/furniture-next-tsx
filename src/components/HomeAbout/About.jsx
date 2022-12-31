@@ -1,5 +1,7 @@
 import React from 'react'
 import AboutItem from './AboutItem'
+import clsx from 'clsx'
+import { newInStore } from '../../data2'
 
 // import slider1 from "../../assets/images/slider/slider-1.png";
 import desk from "../../assets/images/about/office-desk.png"
@@ -24,6 +26,8 @@ import { Slider, SliderContainer } from '../CarouselHome';
 
 
 const About = () => {
+  const { products } = newInStore
+
   return (
     <>
       <section className=''>
@@ -31,59 +35,64 @@ const About = () => {
           {/* <AboutItem /> */}
           <div className=' w-screen md:w-full px-6'>
           <Swiper
-        spaceBetween={0}
-        centeredSlides={true}
-        // autoplay={{
-        //   delay: 4000,
-        //   disableOnInteraction: false,
-        // }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[ Pagination, Navigation]}
-        className="mySwiper carouselMain bg-transparent "
-      >
-        <SwiperSlide>
-          <Slider>
-            <SliderContainer className="flex justify-center items-center w-full">
+      grabCursor={true}
+      breakpoints={{
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 18,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+      }}
+    >
+      {/* {products.map(({ image, name }, index) => ( */}
+        <SwiperSlide className="max-w-[420px]">
+          <div className="relative">
+            <img src={desk} alt='desk office' className="max-w-full h-auto" />
+            <div
+              className={clsx(
+                'absolute text-black',
+                'bottom-[20px] w-full text-center text-[18px] lg:text-2xl',
+                'font-semibold capitalize'
+              )}
+            >
+              {/* Office Deskt one */}
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="max-w-[420px]">
+          <div className="relative">
+            <img src={desk2} alt='desk' className="max-w-full h-auto" />
+            <div
+              className={clsx(
+                'absolute text-black',
+                'bottom-[20px] w-full text-center text-[18px] lg:text-2xl',
+                'font-semibold capitalize'
+              )}
+            >
+            {/* second desk */}
+            </div>
+          </div>
+        </SwiperSlide>
 
-            <img className='w-full' 
-            src={desk} alt="about" />
-            </SliderContainer>
-            </Slider>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <Slider>
-
-            <SliderContainer className="container">
-
-              <img className='w-full mt-[-80px]' 
-            src={desk2} alt="about" />
-
-              </SliderContainer>
-              </Slider>
-              
-            </SwiperSlide>
-
-
-            {/* thrid slider  */}
-            {/* <SwiperSlide>
-              <Slider>
-
-            <SliderContainer className="container">
-
-              <img className='w-full mt-[-80px]' 
-            src={desk3} alt="about" />
-
-              </SliderContainer>
-              </Slider>
-              
-            </SwiperSlide> */}
-
-
-            </Swiper>
+        <SwiperSlide className="max-w-[420px]">
+          <div className="relative">
+            <img src={desk} alt='desk office' className="max-w-full h-auto" />
+            <div
+              className={clsx(
+                'absolute text-black',
+                'bottom-[20px] w-full text-center text-[18px] lg:text-2xl',
+                'font-semibold capitalize'
+              )}
+            >
+              {/* Office Deskt one */}
+            </div>
+          </div>
+        </SwiperSlide>
+      {/* ))} */}
+    </Swiper>
 
         </div>
         <div>

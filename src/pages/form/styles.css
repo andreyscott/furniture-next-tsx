@@ -1,0 +1,22 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+  }
+  
+  .form input {
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+  
+  }
+  
+  .form :last-child{
+    width: 30%;
+    background-color: green;
+  }

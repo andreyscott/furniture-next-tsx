@@ -21,6 +21,7 @@ import BlogDetails from "./pages/BlogDetails/BlogDetails";
 import Contact from "./pages/Contact/Contact";
 import Compare from "./pages/Compare/Compare";
 import NotFound from "./pages/404/NotFound";
+import FormPage from "./pages/form/Form";
 // import Nav1 from "./components/Header/NavTop";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/product/:id" component={ProductDetails} />
           <Route path="/signin" component={SignIn} />
           <Route path="/signup" component={SignUp} />
+          <Route path="/form" component={FormPage} />
           <Route path="/cart" component={Cart} />
           <Route path="/wishlist" component={Wishlist} />
           <Route path="/compare" component={Compare} />

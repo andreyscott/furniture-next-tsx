@@ -8,7 +8,7 @@ export default function FormPage () {
     const formDatab = new FormData(e.target.form);
     console.log(formDatab);
     fetch(
-      "https://script.google.com/macros/s/AKfycbxUX4hu2QEQ7r9TwrSo9vAHydDXv4VwtEDUacCifXaEecIH2bWHQSnFWtd9NdNIUVGDdQ/exec",
+      "https://script.google.com/macros/s/AKfycby8c9g7x7lBmwN_ROmIrJEyKxyeKiJP7jYXtCjYi_syGjFawGouj4IcMIT38u9OhYXP/exec",
       {
         method: "POST",
         body: formDatab

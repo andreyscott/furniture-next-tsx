@@ -10,7 +10,7 @@ import CarouselHome from "../../components/CarouselHome/CarouselHome";
 import CarouselListProduct from "../../components/CarouselListProduct/CarouselListProduct";
 import OurProducts from "../../components/OurProducts/OurProducts";
 import Banner from "../../components/Banner/Banner";
-import News from "../../components/News/News";
+// import News from "../../components/News/News";
 import Stats from "../../Stats";
 import NewInStore from "../../components/newInStore/new-in-store";
 import Proud from "../../components/Proud";
@@ -44,7 +44,7 @@ const Home = () => {
       <Proud />
       <About />
       <Banner />
-      <News />
+      {/* <News /> */}
       {/* <BlogHeader /> */}
       <BottomBanner />
 
